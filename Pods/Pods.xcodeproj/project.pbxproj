@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23266C927BBE088BF7E289CE17DE4249 /* Pods-Remapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA18D9A63A3A5E397B03435602DF144 /* Pods-Remapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25F08DA42FB3BA28A543BFA8D0C5D630 /* Swiftilities-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E223640C5C26AF9864808C84766CCFD /* Swiftilities-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8FAA7640DEC4C14085C7A5BEE17BFE /* Pods-Remapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C51872CAA606D2058F6004EEA68FE7 /* Pods-Remapper-dummy.m */; };
+		B1B88D6C84EB991E4DB02EC82B9D952E /* MathHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4732ED8C394C5CD3D22413133EB3EED7 /* MathHelpers.swift */; };
+		C207CAF98DCEB93D46649E7BA3199778 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D0C489A9D200459B65A166D6F38A493A /* Swiftilities-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 094B9379747AEFAECB87F2974A61A69B /* Swiftilities-dummy.m */; };
+		E444FD8CB09E07BDB90E48FDCF416466 /* FloatingPoint+Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36572D2B4CF0B28FE07B2033955DA518 /* FloatingPoint+Scale.swift */; };
+		EFEA8CC50E972FD5C66C8B4C77142B56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C44D7ECD259E50BC2BFE65890DA0B02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6599A34082CF910A43E43D95A0696CBD;
+			remoteInfo = Swiftilities;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094B9379747AEFAECB87F2974A61A69B /* Swiftilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swiftilities-dummy.m"; sourceTree = "<group>"; };
+		1F6903AEA89FE7026F0FCFC15BD826FA /* Pods-Remapper-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Remapper-resources.sh"; sourceTree = "<group>"; };
+		36572D2B4CF0B28FE07B2033955DA518 /* FloatingPoint+Scale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FloatingPoint+Scale.swift"; path = "Pod/Classes/Math/FloatingPoint+Scale.swift"; sourceTree = "<group>"; };
+		4732ED8C394C5CD3D22413133EB3EED7 /* MathHelpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathHelpers.swift; path = Pod/Classes/Math/MathHelpers.swift; sourceTree = "<group>"; };
+		4A8BA8B3B6D295FC7F99144DBF56FC28 /* Pods-Remapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Remapper.release.xcconfig"; sourceTree = "<group>"; };
+		50764986C25D0A048E8469530A2361D4 /* Swiftilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swiftilities-prefix.pch"; sourceTree = "<group>"; };
+		6149856674324D494057AEEE9EB5E0AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7731543B4CFECD11A643FF1DC4B16432 /* Swiftilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swiftilities.framework; path = Swiftilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E223640C5C26AF9864808C84766CCFD /* Swiftilities-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swiftilities-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96647F8BE65F7943F1DAF1D1215B111F /* Pods-Remapper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Remapper-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4C8D650608EC358973D38ADB26D9B68 /* Pods-Remapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Remapper.modulemap"; sourceTree = "<group>"; };
+		AADDBF326E0D1C424EA5F111D977535A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAD26A47006EA14369EE7FEE3616A92 /* Pods_Remapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Remapper.framework; path = "Pods-Remapper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3FD0240B52C8C11106768D9A78F3E8B /* Pods-Remapper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Remapper-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CEA18D9A63A3A5E397B03435602DF144 /* Pods-Remapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Remapper-umbrella.h"; sourceTree = "<group>"; };
+		D7C51872CAA606D2058F6004EEA68FE7 /* Pods-Remapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Remapper-dummy.m"; sourceTree = "<group>"; };
+		D9C8A9ED891420FA0367A6091082D7ED /* Pods-Remapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Remapper.debug.xcconfig"; sourceTree = "<group>"; };
+		E13130B84F7BDF668D13CA127EC83574 /* Pods-Remapper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Remapper-frameworks.sh"; sourceTree = "<group>"; };
+		E3674B8E299B2324B489376FF89430D3 /* Swiftilities.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swiftilities.xcconfig; sourceTree = "<group>"; };
+		F5380F24849C1B275410948D8AB363BB /* Swiftilities.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Swiftilities.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23BD10003749AF2C8E70537CB994B9F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C207CAF98DCEB93D46649E7BA3199778 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73D4DDD99F76E9600D4CEC51142282C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFEA8CC50E972FD5C66C8B4C77142B56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A930FA89D1458C40E527BF166501B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEAD26A47006EA14369EE7FEE3616A92 /* Pods_Remapper.framework */,
+				7731543B4CFECD11A643FF1DC4B16432 /* Swiftilities.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6851329C69CDE28FF1FFF5476D14F856 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AADDBF326E0D1C424EA5F111D977535A /* Info.plist */,
+				F5380F24849C1B275410948D8AB363BB /* Swiftilities.modulemap */,
+				E3674B8E299B2324B489376FF89430D3 /* Swiftilities.xcconfig */,
+				094B9379747AEFAECB87F2974A61A69B /* Swiftilities-dummy.m */,
+				50764986C25D0A048E8469530A2361D4 /* Swiftilities-prefix.pch */,
+				7E223640C5C26AF9864808C84766CCFD /* Swiftilities-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swiftilities";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78EE96C7468BB7EFBA0294C9388E80CB /* Pods-Remapper */ = {
+			isa = PBXGroup;
+			children = (
+				6149856674324D494057AEEE9EB5E0AC /* Info.plist */,
+				A4C8D650608EC358973D38ADB26D9B68 /* Pods-Remapper.modulemap */,
+				C3FD0240B52C8C11106768D9A78F3E8B /* Pods-Remapper-acknowledgements.markdown */,
+				96647F8BE65F7943F1DAF1D1215B111F /* Pods-Remapper-acknowledgements.plist */,
+				D7C51872CAA606D2058F6004EEA68FE7 /* Pods-Remapper-dummy.m */,
+				E13130B84F7BDF668D13CA127EC83574 /* Pods-Remapper-frameworks.sh */,
+				1F6903AEA89FE7026F0FCFC15BD826FA /* Pods-Remapper-resources.sh */,
+				CEA18D9A63A3A5E397B03435602DF144 /* Pods-Remapper-umbrella.h */,
+				D9C8A9ED891420FA0367A6091082D7ED /* Pods-Remapper.debug.xcconfig */,
+				4A8BA8B3B6D295FC7F99144DBF56FC28 /* Pods-Remapper.release.xcconfig */,
+			);
+			name = "Pods-Remapper";
+			path = "Target Support Files/Pods-Remapper";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E3328DE596F0DD7865EEE8D677A2A5A2 /* Pods */,
+				0A930FA89D1458C40E527BF166501B82 /* Products */,
+				ACF3DFE43ED200BDCCE6AF94E4440C88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83C882A7FA6ADD31FEEC3FC8236A393C /* Swiftilities */ = {
+			isa = PBXGroup;
+			children = (
+				85C321BE552550EF811444113F5568E3 /* Math */,
+				6851329C69CDE28FF1FFF5476D14F856 /* Support Files */,
+			);
+			name = Swiftilities;
+			path = Swiftilities;
+			sourceTree = "<group>";
+		};
+		85C321BE552550EF811444113F5568E3 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				36572D2B4CF0B28FE07B2033955DA518 /* FloatingPoint+Scale.swift */,
+				4732ED8C394C5CD3D22413133EB3EED7 /* MathHelpers.swift */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		ACF3DFE43ED200BDCCE6AF94E4440C88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78EE96C7468BB7EFBA0294C9388E80CB /* Pods-Remapper */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3328DE596F0DD7865EEE8D677A2A5A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C882A7FA6ADD31FEEC3FC8236A393C /* Swiftilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7C9815E4CA345CB0B9FFC37861C9786E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23266C927BBE088BF7E289CE17DE4249 /* Pods-Remapper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E0E57AB6FBCB0886B96CAD2277240B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F08DA42FB3BA28A543BFA8D0C5D630 /* Swiftilities-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B2075755799C9493CBB8DCBF86193AB /* Pods-Remapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53DDC14563E2DD95D6C899C01C857EA7 /* Build configuration list for PBXNativeTarget "Pods-Remapper" */;
+			buildPhases = (
+				1C83E98EF4D0E4DE45703BB28A109C8E /* Sources */,
+				73D4DDD99F76E9600D4CEC51142282C4 /* Frameworks */,
+				7C9815E4CA345CB0B9FFC37861C9786E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9334C056068A9B7DC0726CA089FB98 /* PBXTargetDependency */,
+			);
+			name = "Pods-Remapper";
+			productName = "Pods-Remapper";
+			productReference = BEAD26A47006EA14369EE7FEE3616A92 /* Pods_Remapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6599A34082CF910A43E43D95A0696CBD /* Swiftilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D8B58E198F653FD49A55A1BAA0EFBBA /* Build configuration list for PBXNativeTarget "Swiftilities" */;
+			buildPhases = (
+				4E55EA8E788ECCD3D3147850A6784B18 /* Sources */,
+				23BD10003749AF2C8E70537CB994B9F1 /* Frameworks */,
+				8E0E57AB6FBCB0886B96CAD2277240B2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swiftilities;
+			productName = Swiftilities;
+			productReference = 7731543B4CFECD11A643FF1DC4B16432 /* Swiftilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0A930FA89D1458C40E527BF166501B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B2075755799C9493CBB8DCBF86193AB /* Pods-Remapper */,
+				6599A34082CF910A43E43D95A0696CBD /* Swiftilities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C83E98EF4D0E4DE45703BB28A109C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8FAA7640DEC4C14085C7A5BEE17BFE /* Pods-Remapper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E55EA8E788ECCD3D3147850A6784B18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E444FD8CB09E07BDB90E48FDCF416466 /* FloatingPoint+Scale.swift in Sources */,
+				B1B88D6C84EB991E4DB02EC82B9D952E /* MathHelpers.swift in Sources */,
+				D0C489A9D200459B65A166D6F38A493A /* Swiftilities-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE9334C056068A9B7DC0726CA089FB98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swiftilities;
+			target = 6599A34082CF910A43E43D95A0696CBD /* Swiftilities */;
+			targetProxy = C44D7ECD259E50BC2BFE65890DA0B02B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		028698DEEBF5A03F2579515576132A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9C8A9ED891420FA0367A6091082D7ED /* Pods-Remapper.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Remapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Remapper/Pods-Remapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Remapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		16DBD16446792FF5300FA6DD1B7479FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3674B8E299B2324B489376FF89430D3 /* Swiftilities.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Swiftilities/Swiftilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swiftilities/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swiftilities/Swiftilities.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Swiftilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49B35D71F2AE7D171F5F96CAD358E2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3674B8E299B2324B489376FF89430D3 /* Swiftilities.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Swiftilities/Swiftilities-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swiftilities/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swiftilities/Swiftilities.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Swiftilities;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2817D3F9AB8A390275081E0FB3BF03B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A8BA8B3B6D295FC7F99144DBF56FC28 /* Pods-Remapper.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Remapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Remapper/Pods-Remapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Remapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53DDC14563E2DD95D6C899C01C857EA7 /* Build configuration list for PBXNativeTarget "Pods-Remapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028698DEEBF5A03F2579515576132A59 /* Debug */,
+				E2817D3F9AB8A390275081E0FB3BF03B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D8B58E198F653FD49A55A1BAA0EFBBA /* Build configuration list for PBXNativeTarget "Swiftilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49B35D71F2AE7D171F5F96CAD358E2EA /* Debug */,
+				16DBD16446792FF5300FA6DD1B7479FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

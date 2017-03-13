@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095DF5896DC8A233F70D871A /* Pods_Remapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE4D9F97EFCD07530BE4B759 /* Pods_Remapper.framework */; };
 		CD701EF31E76273A0044B226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD701EF21E76273A0044B226 /* AppDelegate.swift */; };
 		CD701EF51E76273A0044B226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD701EF41E76273A0044B226 /* ViewController.swift */; };
 		CD701EF81E76273A0044B226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD701EF61E76273A0044B226 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2991D10E7C45403944A7D983 /* Pods-Remapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Remapper/Pods-Remapper.debug.xcconfig"; sourceTree = "<group>"; };
+		BE4D9F97EFCD07530BE4B759 /* Pods_Remapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Remapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD701EEF1E7627390044B226 /* Remapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD701EF21E76273A0044B226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD701EF41E76273A0044B226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		CD701EF91E76273A0044B226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD701EFC1E76273A0044B226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD701EFE1E76273A0044B226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA0C99E7AF50A4D6261281 /* Pods-Remapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Remapper/Pods-Remapper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095DF5896DC8A233F70D871A /* Pods_Remapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		46309B55E64FE196ECD2F9F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2991D10E7C45403944A7D983 /* Pods-Remapper.debug.xcconfig */,
+				FEBA0C99E7AF50A4D6261281 /* Pods-Remapper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CD701EE61E7627390044B226 = {
 			isa = PBXGroup;
 			children = (
 				CD701EF11E7627390044B226 /* Remapper */,
 				CD701EF01E7627390044B226 /* Products */,
+				46309B55E64FE196ECD2F9F7 /* Pods */,
+				E1E5EC78EFD7576215B8328D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = Remapper;
 			sourceTree = "<group>";
 		};
+		E1E5EC78EFD7576215B8328D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE4D9F97EFCD07530BE4B759 /* Pods_Remapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD701F011E76273A0044B226 /* Build configuration list for PBXNativeTarget "Remapper" */;
 			buildPhases = (
+				0DD7262BDFD1391F79D46050 /* [CP] Check Pods Manifest.lock */,
 				CD701EEB1E7627390044B226 /* Sources */,
 				CD701EEC1E7627390044B226 /* Frameworks */,
 				CD701EED1E7627390044B226 /* Resources */,
+				E60BED19CA928B22A1CA3672 /* [CP] Embed Pods Frameworks */,
+				0082F23F9F2CF0AAD262B23D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0082F23F9F2CF0AAD262B23D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remapper/Pods-Remapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DD7262BDFD1391F79D46050 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E60BED19CA928B22A1CA3672 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remapper/Pods-Remapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD701EEB1E7627390044B226 /* Sources */ = {
@@ -257,10 +332,12 @@
 		};
 		CD701F021E76273A0044B226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2991D10E7C45403944A7D983 /* Pods-Remapper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KJHM26Y46;
 				INFOPLIST_FILE = Remapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raizlabs.Remapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +347,12 @@
 		};
 		CD701F031E76273A0044B226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEBA0C99E7AF50A4D6261281 /* Pods-Remapper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KJHM26Y46;
 				INFOPLIST_FILE = Remapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raizlabs.Remapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +379,7 @@
 				CD701F031E76273A0044B226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

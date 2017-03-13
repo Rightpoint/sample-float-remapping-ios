@@ -1,0 +1,12 @@
+PODS:
+  - Swiftilities/Math (0.11.0)
+
+DEPENDENCIES:
+  - Swiftilities/Math
+
+SPEC CHECKSUMS:
+  Swiftilities: 009e9adab05f022c44cd07b33bb6dc1fb54b768a
+
+PODFILE CHECKSUM: b4c10ef0641a27051b2fce978227e8c0bd522f6b
+
+COCOAPODS: 1.2.0

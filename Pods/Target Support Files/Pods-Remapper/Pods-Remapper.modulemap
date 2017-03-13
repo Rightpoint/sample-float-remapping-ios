@@ -1,0 +1,6 @@
+framework module Pods_Remapper {
+  umbrella header "Pods-Remapper-umbrella.h"
+
+  export *
+  module * { export * }
+}
