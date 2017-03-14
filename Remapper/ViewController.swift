@@ -33,7 +33,7 @@ private extension ViewController {
     func updateHairline() {
         let offset = tableView.contentOffset.y
         print(offset)
-        hairlineView.alpha = offset.scaled(from: 3...13, to: 0...1)
+        hairlineView.alpha = offset.scaled(from: 3...11, to: 0...1)
     }
 
 }
